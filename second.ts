@@ -15,9 +15,9 @@ const INITIALIZE = false;
 async function main() {
     console.log("Let's name some tokens");
 
-    const myKeypair = loadWalletKey("BEDM9mz8Rne3yP3UDpqjixmxUhMLRJWzh5S2YYnixTTX.json")
+    const myKeypair = loadWalletKey("BpR3GJmdPAYpEyAfbHVrJ7qA6y4MSE1YWnFx4JdLw4Hj.json")
     console.log(myKeypair.publicKey.toBase58())
-    const mint = new web3.PublicKey("XYZxvq4uFxyhi9La3Ba63fpmkbkeCYaWVyN2vzVDSRc")
+    const mint = new web3.PublicKey("FeUugvvDUnjfUQza2P5gDQWo1tgLP6cLSyXY7e4dxyPP")
 
 
     const seed1 = Buffer.from(anchor.utils.bytes.utf8.encode("metadata"));
@@ -37,8 +37,8 @@ async function main() {
 
 
     const dataV2 = {
-        name: "Gizmooooo Coin",
-        symbol: "$GIZMOOOOO",
+        name: "TzimasCoin",
+        symbol: "TZMS",
         uri: "https://5ccwmdhforuyru3bwywsd2ilylllfwizxryzdjcvlyteshacee.arweave.net/6IVmDOV0aYjTYbYtIekLwtay2Rm8cZ-GkVV4mSRwCIY",
         // we don't need that
         sellerFeeBasisPoints: 0,
