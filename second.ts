@@ -39,7 +39,7 @@ async function main() {
     const dataV2 = {
         name: "TzimasCoin",
         symbol: "TZMS",
-        uri: "https://5ccwmdhforuyru3bwywsd2ilylllfwizxryzdjcvlyteshacee.arweave.net/6IVmDOV0aYjTYbYtIekLwtay2Rm8cZ-GkVV4mSRwCIY",
+        uri: "https://raw.githubusercontent.com/ykon28/tzimascrypto/main/logo.png",
         // we don't need that
         sellerFeeBasisPoints: 0,
         creators: null,
